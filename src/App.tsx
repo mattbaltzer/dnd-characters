@@ -1,24 +1,25 @@
 import React from "react";
-//import logo from './logo.svg';
 import Logo from "./assests/updatedlogo.png";
-import "./App.css";
+//import "./App.css";
+import Layout from "./layout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Logo} className="App-logo" alt="logo" />
-        <p>Basic Character Selector</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div>
+        <header>
+          <img
+            src={Logo}
+            className="App-logo"
+            alt="logo"
+            height={200}
+            width={275}
+          />
+          <h1>Basic Character Selector</h1>
+        </header>
+        <section></section>
+      </div>
+    </Layout>
   );
 }
 

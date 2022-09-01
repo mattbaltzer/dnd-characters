@@ -1,14 +1,29 @@
-html {
+.list {
+  width: 50%;
+  height: 50%;
+  column-count: 3;
+  padding: 5px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  margin: -20px 0 10px;
+  padding-left: 10px;
+  text-align: center;
+  color:black;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
   font-family: fantasy;
-}
-
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
 }
