@@ -19,6 +19,13 @@ p {
   text-align: center;
 }
 
+.image {
+  flex: 1;
+  height: 50;
+  width: 50;
+  resize: contain;
+}
+
 button {
   background-color: transparent;
   font-family: fantasy;
@@ -26,4 +33,6 @@ button {
   color: black;
   cursor: pointer;
   font-weight: bold;
+  height: 100%;
+  width: 100%;
 }
